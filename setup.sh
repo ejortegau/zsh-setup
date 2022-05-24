@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-mkdir $HOME/git
+mkdir -p $HOME/git
 cd $HOME/git
 git clone git@github.com:ejortegau/dotfiles.git
 cd
